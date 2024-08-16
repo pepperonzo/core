@@ -49,7 +49,7 @@ ENTITY_DESCRIPTIONS: tuple[EcovacsSelectEntityDescription, ...] = (
         entity_category=EntityCategory.CONFIG,
     ),
         EcovacsSelectEntityDescription[TrueDetectSensitivityEvent](
-        capability_fn=lambda caps: caps.clean.true_detect_sensitivity,
+        capability_fn=lambda caps: caps.settings.true_detect_sensitivity,
         current_option_fn=lambda e: get_name_key(e.level),
         options_fn=lambda cap: [get_name_key(level) for level in cap.types],
         key="true_detect_sensitivity",
