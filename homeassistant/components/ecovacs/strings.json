@@ -175,6 +175,13 @@
           "vacuum_and_mop": "Vacuum & mop"
         }
       }
+	  "true_detect_sensitivity": {
+        "name": "True detect sensitivity",
+        "state": {
+          "high": "High",
+          "standard": "Standard",
+        }
+      }
     },
     "switch": {
       "advanced_mode": {

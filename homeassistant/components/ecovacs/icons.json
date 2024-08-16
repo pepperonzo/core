@@ -110,6 +110,9 @@
       "work_mode": {
         "default": "mdi:cog"
       }
+	  "true_detect_sensitivity": {
+        "default": "mdi:smoke-detector-variant"
+      }
     },
     "switch": {
       "advanced_mode": {
