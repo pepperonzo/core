@@ -205,7 +205,7 @@
         "name": "Safe protect"
       },
       "switch_state": {
-        "name": "Switch state"
+        "name": "Foot touch control"
       },
       "true_detect": {
         "name": "True detect"
