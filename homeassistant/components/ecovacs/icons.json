@@ -139,6 +139,9 @@
       "safe_protect": {
         "default": "mdi:shield-half-full"
       },
+      "switch_state": {
+        "default": "mdi:foot-print"
+      },
       "true_detect": {
         "default": "mdi:laser-pointer"
       }

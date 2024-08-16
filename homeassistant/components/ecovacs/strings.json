@@ -204,6 +204,9 @@
       "safe_protect": {
         "name": "Safe protect"
       },
+      "switch_state": {
+        "name": "Foot touch control"
+      },
       "true_detect": {
         "name": "True detect"
       }

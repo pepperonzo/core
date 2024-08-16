@@ -79,6 +79,13 @@ ENTITY_DESCRIPTIONS: tuple[EcovacsSwitchEntityDescription, ...] = (
         entity_category=EntityCategory.CONFIG,
     ),
     EcovacsSwitchEntityDescription(
+        capability_fn=lambda c: c.settings.switch_state,
+        key="switch_state",
+        translation_key="switch_state",
+        entity_registry_enabled_default=False,
+        entity_category=EntityCategory.CONFIG,
+    ),
+    EcovacsSwitchEntityDescription(
         capability_fn=lambda c: c.settings.moveup_warning,
         key="move_up_warning",
         translation_key="move_up_warning",
