@@ -157,6 +157,14 @@
       }
     },
     "select": {
+      "cleaning_speed": {
+        "name": "Cleaning speed",
+        "state": {
+          "standard": "Standard",
+          "quick_cleaning": "Quick cleaning",
+          "deep_cleaning": "Deep cleaning"
+        }
+      },
       "water_amount": {
         "name": "Water flow level",
         "state": {

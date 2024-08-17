@@ -104,6 +104,9 @@
       }
     },
     "select": {
+      "cleaning_speed": {
+        "default": "mdi:map-marker-path"
+      },
       "water_amount": {
         "default": "mdi:water"
       },
