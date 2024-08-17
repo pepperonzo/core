@@ -72,16 +72,17 @@ ENTITY_DESCRIPTIONS: tuple[EcovacsSwitchEntityDescription, ...] = (
         entity_category=EntityCategory.CONFIG,
     ),
     EcovacsSwitchEntityDescription(
+        capability_fn=lambda c: c.settings.switch_state,
+        key="switch_state",
+        translation_key="switch_state",
+        entity_registry_enabled_default=True,
+        entity_category=EntityCategory.CONFIG,
+    ),
+    EcovacsSwitchEntityDescription(
         capability_fn=lambda c: c.settings.child_lock,
         key="child_lock",
         translation_key="child_lock",
         entity_registry_enabled_default=False,
-        entity_category=EntityCategory.CONFIG,
-    ),
-    EcovacsSwitchEntityDescription(
-        capability_fn=lambda c: c.settings.switch_state,
-        key="switch_state",
-        entity_registry_enabled_default=True,
         entity_category=EntityCategory.CONFIG,
     ),
     EcovacsSwitchEntityDescription(
