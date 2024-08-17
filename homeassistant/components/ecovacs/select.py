@@ -37,6 +37,7 @@ ENTITY_DESCRIPTIONS: tuple[EcovacsSelectEntityDescription, ...] = (
         options_fn=lambda cap: [get_name_key(sweepMode) for sweepMode in cap.types],
         key="cleaning_speed",
         translation_key="cleaning_speed",
+        entity_registry_enabled_default=False,
         entity_category=EntityCategory.CONFIG,
     ),
     EcovacsSelectEntityDescription[WaterInfoEvent](
