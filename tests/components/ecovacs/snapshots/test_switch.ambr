@@ -137,52 +137,6 @@
     'state': 'on',
   })
 # ---
-# name: test_switch_entities[5xu9h3][switch.goat_g1_switch_state:entity-registry]
-  EntityRegistryEntrySnapshot({
-    'aliases': set({
-    }),
-    'area_id': None,
-    'capabilities': None,
-    'config_entry_id': <ANY>,
-    'device_class': None,
-    'device_id': <ANY>,
-    'disabled_by': None,
-    'domain': 'switch',
-    'entity_category': <EntityCategory.CONFIG: 'config'>,
-    'entity_id': 'switch.goat_g1_switch_state',
-    'has_entity_name': True,
-    'hidden_by': None,
-    'icon': None,
-    'id': <ANY>,
-    'labels': set({
-    }),
-    'name': None,
-    'options': dict({
-    }),
-    'original_device_class': None,
-    'original_icon': None,
-    'original_name': 'Foot touch control',
-    'platform': 'ecovacs',
-    'previous_unique_id': None,
-    'supported_features': 0,
-    'translation_key': 'switch_state',
-    'unique_id': '8516ebb1-17f1-4194-0000000_switch_state',
-    'unit_of_measurement': None,
-  })
-# ---
-# name: test_switch_entities[5xu9h3][switch.goat_g1_switch_state:state]
-  StateSnapshot({
-    'attributes': ReadOnlyDict({
-      'friendly_name': 'Goat G1 Foot touch control',
-    }),
-    'context': <ANY>,
-    'entity_id': 'switch.goat_g1_switch_state',
-    'last_changed': <ANY>,
-    'last_reported': <ANY>,
-    'last_updated': <ANY>,
-    'state': 'on',
-  })
-# ---
 # name: test_switch_entities[5xu9h3][switch.goat_g1_cross_map_border_warning:entity-registry]
   EntityRegistryEntrySnapshot({
     'aliases': set({
