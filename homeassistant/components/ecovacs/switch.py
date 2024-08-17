@@ -81,6 +81,7 @@ ENTITY_DESCRIPTIONS: tuple[EcovacsSwitchEntityDescription, ...] = (
     EcovacsSwitchEntityDescription(
         capability_fn=lambda c: c.settings.switch_state,
         key="switch_state",
+        translation_key="switch_state",
         entity_registry_enabled_default=True,
         entity_category=EntityCategory.CONFIG,
     ),
