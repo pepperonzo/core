@@ -165,13 +165,6 @@
           "deep_cleaning": "Deep cleaning"
         }
       },
-      "true_detect_sensitivity": {
-        "name": "True detect sensitivity",
-        "state": {
-          "standard": "Standard",
-          "high": "High",
-        }
-      },
       "water_amount": {
         "name": "Water flow level",
         "state": {
