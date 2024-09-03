@@ -107,6 +107,9 @@
       "cleaning_speed": {
         "default": "mdi:map-marker-path"
       },
+      "true_detect_sensitivity": {
+        "default": "mdi:laser-pointer"
+      },
       "water_amount": {
         "default": "mdi:water"
       },
